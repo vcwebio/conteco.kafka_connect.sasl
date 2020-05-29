@@ -1,6 +1,6 @@
 # `kafka_connect.tocloud` - ContEco
 
-Confluent Kafka Connect to cloud image, with configuration changes.
+Confluent Kafka Connect image, with SASL authentication.
 See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Configuration Changes

@@ -24,7 +24,7 @@ RUN chmod 777 /etc/confluent/docker/healthcheck.sh
 ENV CONTECO_REALM="vcwebio" \
     CONTECO_ECOSYSTEM="conteco" \
     CONTECO_TYPE="kafka_connect" \
-    CONTECO_NAME="tocloud" \
+    CONTECO_NAME="sasl" \
     CONTECO_TAG="5.4.0" \
     CONTECO_BASE="external.kafka_connect:5.4.0" \
     CONTECO_BUILD="image-base"
@@ -32,11 +32,11 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.realm="vcwebio" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="kafka_connect" \
-      io.vcweb.name="tocloud" \
+      io.vcweb.name="sasl" \
       io.vcweb.tag="5.4.0" \
       io.vcweb.base="external.kafka_connect:5.4.0" \
       io.vcweb.build="image-base" \
-      io.vcweb.label="kafka_connect.tocloud - ContEco" \
-      io.vcweb.description="Confluent Kafka Connect to cloud image, with configuration changes." \
-      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.kafka_connect.tocloud --help"
+      io.vcweb.label="kafka_connect.sasl - ContEco" \
+      io.vcweb.description="Confluent Kafka Connect image, with SASL authentication." \
+      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.kafka_connect.sasl --help"
 ##### END image.base/Dockerfile/env-labels-footer #####

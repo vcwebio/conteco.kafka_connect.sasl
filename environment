@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="kafka_connect.tocloud - ContEco"
-export CONTECO_DESCRIPTION="Confluent Kafka Connect to cloud image, with configuration changes."
+export CONTECO_LABEL="kafka_connect.sasl - ContEco"
+export CONTECO_DESCRIPTION="Confluent Kafka Connect image, with SASL authentication."
 
 export CONTECO_TYPE="kafka_connect"
-export CONTECO_NAME="tocloud"
+export CONTECO_NAME="sasl"
 export CONTECO_TAG="5.4.0"
 
 export CONTECO_BASE="external.kafka_connect:5.4.0"
