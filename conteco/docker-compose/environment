@@ -31,9 +31,6 @@ export CONTECO_DC_KAFKA_CONNECT_ENVIRONMENT="\
 'CONNECT_VALUE_CONVERTER_SCHEMA_REGISTRY_BASIC_AUTH_USER_INFO=${DOLLAR}{CONTECO_DC_KAFKA_CONNECT_ENVIRONMENT_CONNECT_SCHEMA_REGISTRY_API_KEY}:${DOLLAR}{CONTECO_DC_KAFKA_CONNECT_ENVIRONMENT_CONNECT_SCHEMA_REGISTRY_API_SECRET}',\
 'CONNECT_INTERNAL_KEY_CONVERTER=org.apache.kafka.connect.json.JsonConverter',\
 'CONNECT_INTERNAL_VALUE_CONVERTER=org.apache.kafka.connect.json.JsonConverter',\
-'CONNECT_PRODUCER_CLASSPATH=/usr/share/java/monitoring-interceptors/monitoring-interceptors-5.4.0.jar',\
-'CONNECT_PRODUCER_INTERCEPTOR_CLASSES=io.confluent.monitoring.clients.interceptor.MonitoringProducerInterceptor',\
-'CONNECT_CONSUMER_INTERCEPTOR_CLASSES=io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor',\
 'CONNECT_PLUGIN_PATH=/usr/share/java,/usr/share/confluent-hub-components',\
 'CONNECT_LOG4J_LOGGERS=org.apache.zookeeper=ERROR,org.I0Itec.zkclient=ERROR,org.reflections=ERROR',\
 'CONNECT_BOOTSTRAP_SERVERS=${DOLLAR}{CONTECO_DC_KAFKA_CONNECT_ENVIRONMENT_CONNECT_CLOUD_BOOTSTRAP_SERVERS}',\
