@@ -5,7 +5,7 @@ export CONTECO_DESCRIPTION="Confluent Kafka Connect image, with SASL authenticat
 
 export CONTECO_TYPE="kafka_connect"
 export CONTECO_NAME="sasl"
-export CONTECO_TAG="5.4.0"
+export CONTECO_TAG="6.0.0"
 
-export CONTECO_BASE="external.kafka_connect:5.4.0"
+export CONTECO_BASE="external.kafka_connect:6.0.0"
 export CONTECO_BUILD="image-base"
